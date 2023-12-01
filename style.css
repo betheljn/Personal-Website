@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: darkgray;
+}
+
+.nav {
+    background-color: chocolate;
+}
+
+h1 { background-color: chocolate;}
+
+#Home {
+    text-decoration: underline;
+}
+
+section {border: 3px solid; color: black; padding: 10px; margin: 10px;
+        text-align: center;
+        background-color: gainsboro;
+}
+
+.img {
+    align-items: center;
+}
