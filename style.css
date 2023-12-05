@@ -5,9 +5,13 @@ body {
 
 .nav {
     background-color: chocolate;
+    text-align: center;
+    display: flex;
 }
 
-h1 { background-color: chocolate;}
+h1 { background-color: chocolate;
+    text-align: center;
+}
 
 #Home {
     text-decoration: underline;
@@ -20,4 +24,32 @@ section {border: 3px solid; color: black; padding: 10px; margin: 10px;
 
 .img {
     align-items: center;
+}
+
+#form {
+    width: 100%;
+    margin: 0% auto;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-container{
+    display: grid;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    margin: 0px 150px;
+    min-height: auto;
+    z-index: -1;
+}
+
+li:nth-child(odd) {
+    color: blueviolet;
+}
+
+.quote{
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: gainsboro;
 }
